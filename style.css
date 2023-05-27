@@ -432,6 +432,7 @@ a {
   .mainn {
     background-image: url(starter-code/assets/home/background-home-mobile.jpg);
     background-position: cover;
+    width: 90%;
   }
   .div1 {
     margin-left: 0;

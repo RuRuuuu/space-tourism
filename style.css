@@ -430,7 +430,6 @@ a {
 /* mobile*/
 @media (max-width: 576px) {
   .mainn {
-    width: 100%;
     background-image: url(starter-code/assets/home/background-home-mobile.jpg);
     background-position: cover;
   }
@@ -443,14 +442,19 @@ a {
   }
 
   .flexx1 {
-    gap: 2rem;
+    gap: 1rem;
   }
   .div3 {
     font-size: 1.3rem;
-    gap: 1rem;
-    width: 80.5%;
+    gap: 0.8rem;
+    width: 84%;
     padding-right: 0.5rem;
     padding-left: 1rem;
     text-align: center;
+  }
+
+  .div1-section {
+    margin-top: 60px;
+    font-size: 18px;
   }
 }

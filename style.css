@@ -70,7 +70,7 @@ body {
 }
 
 .div3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   display: flex;
   gap: 3rem;
   padding-left: 2rem;
@@ -447,9 +447,9 @@ a {
   }
   .div3 {
     width: 84.6%;
-    padding-right: 0;
-    padding-left: 0;
-    justify-content: space-evenly;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: space-around;
     text-align: center;
   }
 
@@ -458,12 +458,12 @@ a {
   }
   .first-p {
     width: 100%;
+    margin-bottom: 35px;
   }
   .spn1 {
-    margin-right: 0.1rem;
+    margin-right: 0.2rem;
   }
   .div2-section {
-    margin-top: 1rem;
     box-shadow: 0 2rem 3.5rem rgba(0, 0, 0, 0.6);
   }
 }

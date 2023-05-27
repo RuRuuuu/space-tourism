@@ -297,6 +297,9 @@ a {
   display: flex;
   gap: 2rem;
 }
+.circle-block {
+  display: none;
+}
 
 .span-crew1 {
   margin-right: 0.7rem;
@@ -477,6 +480,8 @@ a {
     text-align: center;
     margin-top: -3.3rem;
   }
+
+  /*destination page*/
   .planet-img {
     width: 200px;
   }
@@ -526,6 +531,34 @@ a {
   }
   .footer-div3 {
     width: 40%;
+    text-align: center;
+  }
+
+  /*crew page*/
+  .section-crew {
+    display: inline;
+  }
+
+  .div2-crew {
+    position: absolute;
+    top: 11rem;
+    left: 13.5rem;
+  }
+  .crew-img {
+    width: 200px;
+    height: 210px;
+  }
+  .circle {
+    margin-left: 10rem;
+  }
+  .h2-crew {
+    font-size: 24px;
+  }
+  .div1-crew {
+    position: absolute;
+    top: 27rem;
+    left: -9rem;
+    width: 70%;
     text-align: center;
   }
 }

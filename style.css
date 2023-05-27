@@ -34,7 +34,33 @@ body {
   margin-left: 2rem;
   font-size: 0.5rem;
 }
+.upp {
+  animation: moveInTop 3s ease-out;
+}
+.fade {
+  animation: fadesIn 3s;
+}
 
+@keyframes fadesIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes moveInTop {
+  0% {
+    transform: translateY(6rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 .div2 {
   margin-left: 7rem;
   width: 35%;
@@ -113,6 +139,12 @@ a {
   margin: auto;
   color: black;
   border-radius: 50%;
+  transition: all 0.8s;
+}
+
+.div2-section:hover {
+  transform: translateY(4rem) scaleX(1.3) scaleY(1.3); /* to move from bottom to top its in negative*/
+  box-shadow: 0 2rem 3.5rem rgba(0, 0, 0, 0.6);
 }
 
 .div2-section p {
@@ -136,17 +168,12 @@ a {
   cursor: pointer;
 }
 
-.trans {
-  animation: animatee 3.5s ease-out;
-}
-
-@keyframes animatee {
+@keyframes rotate {
   0% {
-    opacity: 0;
+    transform: rotate(0deg);
   }
-
   100% {
-    opacity: 1;
+    transform: rotate(360deg);
   }
 }
 
@@ -154,8 +181,9 @@ a {
   display: flex;
 }
 .planet-img {
-  width: 26vw;
+  width: 24vw;
   margin-top: 4.5rem;
+  animation: rotate 20s infinite;
 }
 
 .planet-h1 {
@@ -235,12 +263,12 @@ a {
   gap: 5.5rem;
 }
 .crew-img {
-  width: 30vw;
-  height: 60.4vh;
+  width: 29vw;
+  height: 60vh;
 }
 
 .div2-crew {
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 .div1-crew {
   width: 40%;
@@ -297,7 +325,7 @@ a {
 }
 
 .tech-img {
-  width: 28vw;
+  width: 26vw;
 }
 
 .div1-tech {
@@ -311,6 +339,9 @@ a {
 
 .div3-tech {
   width: 36%;
+}
+.hid {
+  display: block;
 }
 
 .btn1 {
@@ -402,5 +433,21 @@ a {
     width: 100%;
     background-image: url(starter-code/assets/home/background-home-mobile.jpg);
     background-position: cover;
+  }
+
+  .div2 {
+    display: none;
+  }
+
+  .flexx1 {
+    gap: 3.5rem;
+  }
+  .div3 {
+    font-size: 1.3rem;
+    width: 80%;
+    text-align: center;
+  }
+  .section1 {
+    margin-top: 4rem;
   }
 }

@@ -11,6 +11,7 @@ btn1.addEventListener("click", function () {
   btn2.style.backgroundColor = "transparent";
   btn3.style.backgroundColor = "transparent";
   btn3.style.color = "white";
+
   btn2.style.color = "white";
   btn1.style.color = "black";
   hTech.textContent = "LAUNCH VEHICLE";

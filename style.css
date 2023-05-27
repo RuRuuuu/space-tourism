@@ -500,9 +500,19 @@ a {
   .small-nav {
     margin: auto;
     width: 100%;
-    margin-left: -1.4rem;
+    margin-left: -2.4rem;
   }
   .footer-div {
     gap: 10rem;
+    margin-left: -2rem;
+    width: 90%;
+  }
+  .footer-div2 {
+    width: 40%;
+    text-align: center;
+  }
+  .footer-div3 {
+    width: 40%;
+    text-align: center;
   }
 }

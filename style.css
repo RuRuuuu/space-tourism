@@ -447,9 +447,9 @@ a {
   }
   .div3 {
     width: 84.6%;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    gap: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 2.5rem;
     text-align: center;
   }
 

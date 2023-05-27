@@ -434,20 +434,24 @@ a {
     background-image: url(starter-code/assets/home/background-home-mobile.jpg);
     background-position: cover;
   }
+  .div1 {
+    margin-left: 0;
+  }
 
   .div2 {
     display: none;
   }
 
   .flexx1 {
-    gap: 3.5rem;
+    gap: 2rem;
   }
   .div3 {
     font-size: 1.3rem;
+    gap: 1rem;
     width: 80%;
     text-align: center;
   }
   .section1 {
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 }

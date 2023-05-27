@@ -488,6 +488,10 @@ a {
     width: 80%;
     margin: auto;
   }
+  .planet-h2 {
+    text-align: center;
+    padding-left: 1.5rem;
+  }
   .div-planet {
     margin-left: -2.4rem;
     width: 100%;
@@ -501,7 +505,7 @@ a {
   .small-nav {
     margin: auto;
     width: 100%;
-    margin-left: -3.6rem;
+    margin-left: -3.7rem;
   }
   .footer-div {
     gap: 12rem;
@@ -523,8 +527,5 @@ a {
   .footer-div3 {
     width: 40%;
     text-align: center;
-  }
-  .planet-h1 {
-    margin-left: 1rem;
   }
 }

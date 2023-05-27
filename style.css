@@ -542,7 +542,7 @@ a {
   .div2-crew {
     position: absolute;
     top: 11rem;
-    left: 13.5rem;
+    left: 11rem;
   }
   .crew-img {
     width: 200px;
@@ -552,13 +552,16 @@ a {
     margin-left: 10rem;
   }
   .h2-crew {
-    font-size: 24px;
+    font-size: 28px;
   }
   .div1-crew {
     position: absolute;
-    top: 27rem;
-    left: -9rem;
+    top: 26rem;
+    left: -10rem;
     width: 70%;
     text-align: center;
+  }
+  .crew-h1 {
+    margin-left: 0;
   }
 }

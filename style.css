@@ -500,12 +500,20 @@ a {
   .small-nav {
     margin: auto;
     width: 100%;
-    margin-left: -2.4rem;
+    margin-left: -3.5rem;
   }
   .footer-div {
-    gap: 10rem;
+    gap: 12rem;
     margin-left: -2rem;
     width: 90%;
+  }
+  .span-footer {
+    width: 13rem;
+    margin-left: -3.6rem;
+  }
+  .footer-p1,
+  .footer-p2 {
+    margin-left: -3.2rem;
   }
   .footer-div2 {
     width: 40%;

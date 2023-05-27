@@ -213,7 +213,8 @@ a {
 .small-nav {
   display: flex;
   gap: 5rem;
-  font-size: 1.2rem;
+  width: 100%;
+  font-size: 1.3rem;
 }
 .planet-h2 {
   font-size: 5rem;
@@ -466,5 +467,42 @@ a {
   }
   .div2-section {
     box-shadow: 0 2rem 3.5rem rgba(0, 0, 0, 0.6);
+  }
+  .section2 {
+    display: inline;
+  }
+  .div1-section2 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: -4rem;
+  }
+  .planet-img {
+    width: 200px;
+  }
+  .planet-h1 {
+    margin-top: -2.5rem;
+  }
+  .div2-section2 {
+    width: 80%;
+    margin: auto;
+  }
+  .div-planet {
+    margin-left: -2.4rem;
+    width: 100%;
+    text-align: center;
+  }
+  .line-div {
+    width: 100%;
+    margin-left: -3rem;
+    text-align: center;
+  }
+  .small-nav {
+    margin: auto;
+    width: 100%;
+    margin-left: -1.4rem;
+  }
+  .footer-div {
+    gap: 10rem;
   }
 }

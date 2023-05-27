@@ -448,11 +448,9 @@ a {
   .div3 {
     font-size: 1.3rem;
     gap: 1rem;
-    width: 90%;
+    width: 80.5%;
+    padding-right: 0.5rem;
     padding-left: 1rem;
     text-align: center;
-  }
-  .section1 {
-    margin-top: 0.3rem;
   }
 }

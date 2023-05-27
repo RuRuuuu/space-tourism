@@ -70,7 +70,7 @@ body {
 }
 
 .div3 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   display: flex;
   gap: 3rem;
   padding-left: 2rem;
@@ -447,9 +447,9 @@ a {
   }
   .div3 {
     width: 84.6%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    justify-content: space-around;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap:3rem
     text-align: center;
   }
 

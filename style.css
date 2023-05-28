@@ -225,9 +225,9 @@ a {
 }
 .small-nav {
   display: flex;
-  gap: 5rem;
+  gap: 2rem;
   width: 100%;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .planet-h2 {
   font-size: 5rem;
@@ -457,7 +457,7 @@ a {
     letter-spacing: 2.4rem;
   }
   .planet-p {
-    font-size: 20px;
+    font-size: 16px;
   }
   .footer-div {
     gap: 20rem;
@@ -534,7 +534,7 @@ a {
     width: 50%;
     margin: auto;
     text-align: center;
-    margin-top: -3.3rem;
+    margin-top: -5rem;
   }
   .h1-space {
     font-size: 1rem;
@@ -561,7 +561,7 @@ a {
     padding-left: 1.5rem;
   }
   .div-planet {
-    margin-left: -2.4rem;
+    margin-left: -1rem;
     width: 100%;
     text-align: center;
   }
@@ -573,7 +573,7 @@ a {
   .small-nav {
     margin: auto;
     width: 100%;
-    margin-left: -3.7rem;
+    margin-left: -5.5rem;
   }
   .footer-div {
     gap: 12rem;
@@ -605,7 +605,7 @@ a {
 
   .div2-crew {
     position: absolute;
-    top: 8rem;
+    top: 2.5rem;
     left: 10rem;
   }
   .crew-img {
@@ -620,7 +620,7 @@ a {
   }
   .div1-crew {
     position: absolute;
-    top: 30rem;
+    top: 26rem;
     left: -2rem;
     width: 80%;
     text-align: center;
@@ -668,7 +668,7 @@ a {
     display: none;
   }
   .flexx1 {
-    gap: 26rem;
+    gap: 27rem;
     padding-left: 1.5rem;
   }
 
@@ -701,5 +701,8 @@ a {
   }
   .div1-tech {
     margin-top: 8rem;
+  }
+  .crew-p {
+    font-size: 17px;
   }
 }

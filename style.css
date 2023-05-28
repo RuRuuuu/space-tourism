@@ -285,8 +285,9 @@ a {
 }
 .div1-crew {
   width: 40%;
-  margin-left: 10rem;
+  margin-left: 14rem;
   margin-top: 11rem;
+  margin: auto;
 }
 
 .span-crew2 {
@@ -382,7 +383,7 @@ a {
 }
 .span-tech {
   color: rgba(255, 255, 255, 0.549);
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-weight: 100;
 }
 
@@ -546,10 +547,10 @@ a {
   /*destination page*/
   .planet-img {
     width: 200px;
-    margin-top: 8rem;
+    margin-top: 6.5rem;
   }
   .planet-h1 {
-    margin-top: -2.5rem;
+    margin-top: -2.9rem;
     margin-left: 1rem;
   }
   .div2-section2 {
@@ -561,7 +562,7 @@ a {
     padding-left: 1.5rem;
   }
   .div-planet {
-    margin-left: -1rem;
+    margin-left: -3rem;
     width: 100%;
     text-align: center;
   }
@@ -573,10 +574,10 @@ a {
   .small-nav {
     margin: auto;
     width: 100%;
-    margin-left: -5.5rem;
+    margin-left: -5.3rem;
   }
   .footer-div {
-    gap: 12rem;
+    gap: 10rem;
     margin-left: -2rem;
     width: 90%;
   }
@@ -613,7 +614,7 @@ a {
     height: 210px;
   }
   .circle {
-    margin-left: 10rem;
+    margin-left: 12rem;
   }
   .h2-crew {
     font-size: 28px;
@@ -668,7 +669,7 @@ a {
     display: none;
   }
   .flexx1 {
-    gap: 27rem;
+    gap: 28rem;
     padding-left: 1.5rem;
   }
 

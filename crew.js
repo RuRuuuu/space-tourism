@@ -5,7 +5,7 @@ let arrCrew = [
   "Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.",
   "Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer.",
 ];
-console.log(arrCrew.length);
+
 let currentIndex = 0;
 
 function printNextMessage() {
@@ -104,3 +104,18 @@ lId = setInterval(addBackgroundColor, 3000);
 function reloadPage() {
   location.reload();
 }
+
+//code for thr mobile nav-bar
+let hiddenDiv = document.querySelector(".mobile-nav");
+let btnHiden = document.querySelector(".mobile-navbtn");
+let btnReveal = document.querySelector(".mobile-navreveal");
+
+btnReveal.addEventListener("click", function () {
+  hiddenDiv.style.display = "block";
+  btnReveal.style.display = "none";
+});
+
+btnHiden.addEventListener("click", function () {
+  hiddenDiv.style.display = "none";
+  btnReveal.style.display = "block";
+});

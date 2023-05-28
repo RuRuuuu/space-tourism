@@ -69,4 +69,17 @@ moon.addEventListener("click", function () {
     "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.";
 });
 
-//code for animation
+//code for the mobile nav-bar
+let hiddenDiv = document.querySelector(".mobile-nav");
+let btnHiden = document.querySelector(".mobile-navbtn");
+let btnReveal = document.querySelector(".mobile-navreveal");
+
+btnReveal.addEventListener("click", function () {
+  hiddenDiv.style.display = "block";
+  btnReveal.style.display = "none";
+});
+
+btnHiden.addEventListener("click", function () {
+  hiddenDiv.style.display = "none";
+  btnReveal.style.display = "block";
+});

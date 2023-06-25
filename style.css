@@ -78,7 +78,7 @@ body {
 }
 
 .div3 {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 
   display: flex;
   justify-content: space-between;
@@ -108,7 +108,9 @@ body {
   width: 90%;
   margin: auto;
   justify-content: space-between;
-  margin-top: 6rem;
+  margin-top: 14rem;
+
+  padding-left: 6rem;
 }
 a {
   text-decoration: none;
@@ -116,7 +118,7 @@ a {
 }
 
 .div1-section h1 {
-  font-size: 6.4rem;
+  font-size: 6.6rem;
   letter-spacing: 2.1rem;
   text-transform: uppercase;
   font-weight: 400;
@@ -124,7 +126,7 @@ a {
 }
 
 .div1-section span {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   word-spacing: 0.3rem;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.593);
@@ -132,7 +134,7 @@ a {
 }
 
 .first-p {
-  font-size: 1.3rem;
+  font-size: 2rem;
   text-align: center;
   color: rgba(255, 255, 255, 0.593);
 }
@@ -191,9 +193,9 @@ a {
 .section2 {
   display: flex;
   justify-content: space-between;
-  padding-left: 3rem;
-  padding-right: 2.5rem;
-  margin-top: -2rem;
+  padding-left: 5rem;
+  padding-right: 3rem;
+  margin-top: 1rem;
 }
 .planet-img {
   width: 80%;
@@ -222,7 +224,8 @@ a {
 
 .div2-section2 {
   width: 63%;
-  margin-top: 3rem;
+
+  margin-top: 8rem;
   padding-left: 5rem;
   padding-top: 2rem;
 }
@@ -230,7 +233,7 @@ a {
   display: flex;
   justify-content: space-between;
   width: 60%;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .planet-h2 {
   font-size: 5rem;
@@ -239,7 +242,7 @@ a {
 }
 
 .planet-p {
-  font-size: 1.3rem;
+  font-size: 2rem;
   color: rgba(255, 255, 255, 0.593);
 }
 
@@ -289,12 +292,14 @@ a {
 
 .div2-crew {
   width: 50%;
-  padding-left: 4rem;
-  margin-top: 1.5rem;
+  padding-left: 7rem;
+  margin-top: 10rem;
+
+  text-align: center;
 }
 .div1-crew {
   width: 50%;
-  margin-top: 4rem;
+  margin-top: 11rem;
 }
 
 .span-crew2 {
@@ -308,7 +313,7 @@ a {
   text-transform: uppercase;
 }
 .crew-p {
-  font-size: 1.3rem;
+  font-size: 2rem;
   color: rgba(255, 255, 255, 0.593);
   font-weight: 100;
 }
@@ -356,17 +361,19 @@ a {
 
 .div1-tech {
   width: 5%;
-  margin-top: 5rem;
+  margin-top: 15rem;
 }
 .div2-tech {
   width: 50%;
-  margin-top: 7rem;
+  margin-top: 15rem;
 }
 
 .div3-tech {
   width: 35%;
   padding-left: 5rem;
   padding-top: 4rem;
+
+  margin-top: 6rem;
 }
 .hid {
   display: block;
@@ -393,7 +400,7 @@ a {
 }
 
 .p-tech {
-  font-size: 1.3rem;
+  font-size: 2rem;
   color: rgba(255, 255, 255, 0.593);
 }
 .span-tech {
@@ -462,7 +469,7 @@ a {
   }
   /*destonation page*/
   .section2 {
-    margin-top: 9rem;
+    margin-top: 6rem;
     padding-left: 2rem;
     padding-right: 4rem;
   }
@@ -479,7 +486,7 @@ a {
   }
 
   .div3 {
-    font-size: 1.4em;
+    font-size: 1.4rem;
   }
   .planet-h2 {
     font-size: 4rem;
@@ -496,11 +503,11 @@ a {
   .div1-crew {
     width: 80%;
     margin-left: 5rem;
-    margin-top: 15rem;
+    margin-top: 14rem;
   }
   .section-crew {
     padding: 0px;
-    margin-top: 4rem;
+    margin-top: 1rem;
     width: 100%;
     padding-right: 2rem;
   }
@@ -518,12 +525,13 @@ a {
     text-align: center;
 
     width: 50%;
-    margin-top: 10rem;
+    text-align: center;
+    margin-top: 13rem;
   }
   /*tech page*/
 
   .section-tech {
-    margin-top: 8rem;
+    margin-top: 1rem;
     width: 100%;
     padding-left: 2rem;
     padding-right: 4rem;
@@ -533,7 +541,7 @@ a {
     margin-top: 3rem;
   }
   .div1-tech {
-    margin-top: 10rem;
+    margin-top: 17rem;
   }
   .crew-h1 {
     display: inline-block;

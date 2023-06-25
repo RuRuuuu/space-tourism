@@ -449,7 +449,7 @@ a {
     display: inline-block;
   }
   .first-p {
-    font-size: 20px;
+    font-size: 23px;
   }
   .div1-section {
     margin: auto;
@@ -468,7 +468,7 @@ a {
   }
   /*destonation page*/
   .section2 {
-    margin-top: 6rem;
+    margin-top: 3rem;
     padding-left: 2rem;
     padding-right: 4rem;
   }
@@ -483,6 +483,9 @@ a {
   .planet-img {
     width: 100%;
   }
+  .div1-section2 {
+    margin-top: 4rem;
+  }
 
   .div3 {
     font-size: 1.4rem;
@@ -495,7 +498,7 @@ a {
     font-size: 14px;
   }
   .planet-p {
-    font-size: 20px;
+    font-size: 23px;
   }
 
   /*for crew page */
@@ -511,7 +514,7 @@ a {
     padding-right: 2rem;
   }
   .crew-p {
-    font-size: 20px;
+    font-size: 23px;
   }
   #cir {
     margin-top: 6rem;
@@ -537,10 +540,13 @@ a {
   }
   .tech-img {
     width: 110%;
-    margin-top: 3rem;
+    margin-top: 5rem;
+  }
+  .div2-tech {
+    margin-top: 9rem;
   }
   .div1-tech {
-    margin-top: 17rem;
+    margin-top: 15rem;
   }
   .crew-h1 {
     display: inline-block;
@@ -548,10 +554,10 @@ a {
   }
 
   .div3-tech {
-    padding-left: 1px;
+    padding-left: 0.2rem;
   }
   .p-tech {
-    font-size: 20px;
+    font-size: 23px;
   }
 }
 /* mobile*/

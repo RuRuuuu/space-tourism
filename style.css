@@ -293,7 +293,7 @@ a {
 .div2-crew {
   width: 50%;
   padding-left: 7rem;
-  margin-top: 10rem;
+  margin-top: 7rem;
 
   text-align: center;
 }
@@ -335,6 +335,7 @@ a {
   font-size: medium;
   font-weight: 100;
   margin-left: 16rem;
+  margin-top: 4rem;
 }
 
 /*technology styling*/
@@ -373,7 +374,7 @@ a {
   padding-left: 5rem;
   padding-top: 4rem;
 
-  margin-top: 6rem;
+  margin-top: 3rem;
 }
 .hid {
   display: block;

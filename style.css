@@ -27,7 +27,7 @@ body {
 
 .flexx1 {
   display: flex;
-
+  justify-content: space-between;
   padding-top: 2rem;
 }
 .div1 {
@@ -44,9 +44,7 @@ body {
 .mobile-nav {
   display: none;
 }
-.mobile-navbtn {
-  display: none;
-}
+
 .mobile-navreveal {
   display: none;
 }
@@ -62,7 +60,7 @@ body {
 
 @keyframes moveInTop {
   0% {
-    transform: translateY(7rem);
+    transform: translateY(6rem);
     opacity: 0;
   }
 
@@ -80,12 +78,13 @@ body {
 }
 
 .div3 {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
+
   display: flex;
-  gap: 3rem;
+  justify-content: space-between;
   padding-left: 2rem;
   padding-right: 2.5rem;
-  width: 58%;
+  width: 56%;
   text-align: center;
   padding-top: 1.5rem;
   /* From https://css.glass */
@@ -106,10 +105,10 @@ body {
 }
 .section1 {
   display: flex;
-  width: 80%;
+  width: 90%;
   margin: auto;
-  gap: 9rem;
-  margin-top: -4rem;
+  justify-content: space-between;
+  margin-top: 6rem;
 }
 a {
   text-decoration: none;
@@ -125,15 +124,15 @@ a {
 }
 
 .div1-section span {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   word-spacing: 0.3rem;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.593);
   font-weight: 100;
 }
 
-.div1-section p {
-  font-size: 1.8rem;
+.first-p {
+  font-size: 1.3rem;
   text-align: center;
   color: rgba(255, 255, 255, 0.593);
 }
@@ -191,6 +190,10 @@ a {
 
 .section2 {
   display: flex;
+  justify-content: space-between;
+  padding-left: 3rem;
+  padding-right: 2.5rem;
+  margin-top: -2rem;
 }
 .planet-img {
   width: 80%;
@@ -209,24 +212,24 @@ a {
 }
 
 .planet-h1-span {
-  margin-right: 0.7rem;
+  margin-right: 0.5rem;
   color: rgba(255, 255, 255, 0.296);
 }
+
 .div1-section2 {
-  width: 33%;
-  margin-left: 10rem;
+  width: 35%;
 }
 
 .div2-section2 {
-  width: 45%;
+  width: 63%;
+  margin-top: 3rem;
   padding-left: 5rem;
   padding-top: 2rem;
-  margin-top: 4rem;
 }
 .small-nav {
   display: flex;
-  gap: 2rem;
-  width: 100%;
+  justify-content: space-between;
+  width: 60%;
   font-size: 1rem;
 }
 .planet-h2 {
@@ -236,7 +239,7 @@ a {
 }
 
 .planet-p {
-  font-size: 1.53rem;
+  font-size: 1.3rem;
   color: rgba(255, 255, 255, 0.593);
 }
 
@@ -247,11 +250,12 @@ a {
 }
 .footer-div {
   display: flex;
-  gap: 9rem;
+  justify-content: space-between;
+  width: 80%;
 }
 
 .span-footer {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.433);
 }
 
@@ -259,7 +263,7 @@ a {
 .footer-div3,
 .footer-p1,
 .footer-p2 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 /* styling for thr crew page*/
@@ -274,45 +278,51 @@ a {
 
 .section-crew {
   display: flex;
-  gap: 9rem;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding-left: 3.5rem;
 }
 .crew-img {
   width: 50%;
 }
 
 .div2-crew {
-  margin-top: 5rem;
+  width: 50%;
+  padding-left: 4rem;
+  margin-top: 1.5rem;
 }
 .div1-crew {
-  width: 40%;
-  margin-left: 14rem;
-  margin-top: 11rem;
-  margin: auto;
+  width: 50%;
+  margin-top: 4rem;
 }
 
 .span-crew2 {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.452);
   text-transform: uppercase;
 }
 .h2-crew {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 200;
   text-transform: uppercase;
 }
 .crew-p {
-  font-size: 1.52rem;
+  font-size: 1.3rem;
   color: rgba(255, 255, 255, 0.593);
   font-weight: 100;
 }
 
-.circle {
+#cir {
   display: flex;
-  gap: 2rem;
+  justify-content: space-between;
+
+  width: 20%;
 }
 
 .span-crew1 {
-  margin-right: 0.7rem;
+  margin-right: 1rem;
+  font-size: 1.4rem;
   color: rgba(255, 255, 255, 0.296);
 }
 
@@ -334,25 +344,29 @@ a {
 
 .section-tech {
   display: flex;
-  gap: 6rem;
-  margin-left: 10rem;
+  justify-content: space-between;
+  width: 90%;
+
+  margin: auto;
 }
 
 .tech-img {
-  width: 26vw;
+  width: 100%;
 }
 
 .div1-tech {
-  width: 6%;
+  width: 5%;
   margin-top: 5rem;
 }
 .div2-tech {
-  width: 40%;
-  margin-top: 5rem;
+  width: 50%;
+  margin-top: 7rem;
 }
 
 .div3-tech {
-  width: 36%;
+  width: 35%;
+  padding-left: 5rem;
+  padding-top: 4rem;
 }
 .hid {
   display: block;
@@ -362,9 +376,9 @@ a {
 }
 
 .btn1 {
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 50%;
-  font-size: 1.5rem;
+  font-size: 0.7rem;
   background-color: transparent;
   border-color: rgba(255, 255, 255, 0.404);
   color: white;
@@ -372,18 +386,19 @@ a {
 }
 
 .h2-tech {
-  font-size: 3rem;
+  font-size: 2.5rem;
+
   font-weight: 100;
   word-spacing: 0.5rem;
 }
 
 .p-tech {
-  font-size: 1.53rem;
+  font-size: 1.3rem;
   color: rgba(255, 255, 255, 0.593);
 }
 .span-tech {
   color: rgba(255, 255, 255, 0.549);
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 100;
 }
 
@@ -411,13 +426,24 @@ a {
 
     background-image: url(starter-code/assets/home/background-home-tablet.jpg);
   }
+  .div3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 
+  /* navigation */
+  .div2 {
+    display: none;
+  }
   .section1 {
     width: 100%;
     margin: auto;
     text-align: center;
-    margin-top: -1rem;
+    padding-top: 7rem;
     display: inline-block;
+  }
+  .first-p {
+    font-size: 20px;
   }
   .div1-section {
     margin: auto;
@@ -432,68 +458,93 @@ a {
     padding-bottom: 6rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
   /*destonation page*/
   .section2 {
-    text-align: center;
-    gap: 1rem;
-    margin-top: 5rem;
+    margin-top: 9rem;
+    padding-left: 2rem;
+    padding-right: 4rem;
   }
   .div2-section2 {
     width: 60%;
+    padding-left: 0.4rem;
   }
-  .div1-section2 {
-    margin-left: 3rem;
+  .small-nav {
+    width: 100%;
   }
+
   .planet-img {
     width: 100%;
   }
 
-  .navv {
-    font-size: 2rem;
+  .div3 {
+    font-size: 1.4em;
   }
   .planet-h2 {
-    font-size: 5.5rem;
+    font-size: 4rem;
     letter-spacing: 2.4rem;
   }
-  .planet-p {
-    font-size: 16px;
+  .span-crew2 {
+    font-size: 14px;
   }
-  .footer-div {
-    gap: 20rem;
+  .planet-p {
+    font-size: 20px;
   }
 
   /*for crew page */
   .div1-crew {
-    width: 70%;
+    width: 80%;
     margin-left: 5rem;
-    margin-top: 11rem;
+    margin-top: 15rem;
+  }
+  .section-crew {
+    padding: 0px;
+    margin-top: 4rem;
+    width: 100%;
+    padding-right: 2rem;
   }
   .crew-p {
-    font-size: 19px;
+    font-size: 20px;
   }
-  .crew-img {
-    width: 80%;
-    height: 70%;
+  #cir {
     margin-top: 6rem;
+  }
+
+  .crew-img {
+    width: 100%;
   }
   .div2-crew {
     text-align: center;
+
+    width: 50%;
+    margin-top: 10rem;
   }
   /*tech page*/
 
   .section-tech {
-    margin-left: 3rem;
-    gap: 4rem;
-    margin-top: 4rem;
+    margin-top: 8rem;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 4rem;
   }
   .tech-img {
     width: 110%;
     margin-top: 3rem;
   }
+  .div1-tech {
+    margin-top: 10rem;
+  }
+  .crew-h1 {
+    display: inline-block;
+    margin-top: 2rem;
+  }
+
+  .div3-tech {
+    padding-left: 1px;
+  }
   .p-tech {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 /* mobile*/
@@ -511,12 +562,10 @@ a {
     display: none;
   }
 
-  .flexx1 {
-    gap: 1.2rem;
-  }
-
   .div1-section {
     margin-top: 62px;
+
+    width: 85%;
   }
   .first-p {
     width: 100%;
@@ -541,55 +590,60 @@ a {
     font-size: 1rem;
   }
   .section1 {
-    margin-top: -16rem;
+    margin-top: -3rem;
+    padding-top: 0.9rem;
   }
 
   /*destination page*/
   .planet-img {
     width: 200px;
-    margin-top: 6.5rem;
+    margin-top: 6rem;
   }
   .planet-h1 {
-    margin-top: -2.9rem;
+    margin-top: -2.6rem;
     margin-left: 1rem;
   }
   .div2-section2 {
-    width: 80%;
+    width: 100%;
     margin: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+  }
+  .planet-p {
+    font-size: 19px;
   }
   .planet-h2 {
     text-align: center;
     padding-left: 1.5rem;
   }
   .div-planet {
-    margin-left: -3rem;
     width: 100%;
     text-align: center;
+    margin: auto;
+    padding-top: 0.1rem;
   }
   .line-div {
     width: 100%;
-    margin-left: -3rem;
+    margin: auto;
     text-align: center;
   }
+
   .small-nav {
     margin: auto;
+    font-size: 18px;
     width: 100%;
-    margin-left: -5.3rem;
   }
   .footer-div {
-    gap: 10rem;
-    margin-left: -2rem;
+    margin: auto;
+
     width: 90%;
   }
   .span-footer {
     width: 13rem;
-    margin-left: -3.6rem;
+    font-size: 12px;
   }
 
-  .footer-p1,
-  .footer-p2 {
-    margin-left: -3.2rem;
-  }
   .footer-div2 {
     width: 40%;
     text-align: center;
@@ -606,8 +660,11 @@ a {
 
   .div2-crew {
     position: absolute;
-    top: 2.5rem;
-    left: 10rem;
+    top: 25%;
+    left: 17%;
+    text-align: center;
+
+    margin: auto;
   }
   .crew-img {
     width: 200px;
@@ -619,24 +676,35 @@ a {
   .h2-crew {
     font-size: 28px;
   }
+  .crew-p {
+    font-size: 30px;
+  }
   .div1-crew {
     position: absolute;
-    top: 26rem;
-    left: -2rem;
-    width: 80%;
+    top: 34rem;
+    left: 6%;
+    margin: auto;
+    width: 90%;
+    font-size: 20px;
     text-align: center;
   }
+  #cir {
+    margin-top: -6rem;
+    width: 30%;
+    left: 35%;
+  }
+
   .crew-h1 {
     margin-left: 1rem;
   }
   /* style for the nav bar*/
   .mobile-nav {
-    width: 200px;
+    width: 75%;
     display: none;
-    height: 200px;
+    height: 100%;
     padding-left: 1rem;
     padding-top: 1rem;
-    background: rgba(255, 255, 255, 0.086);
+    background: rgba(255, 255, 255, 0.085);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(0.5rem);
     -webkit-backdrop-filter: blur(0.4rem);
@@ -649,16 +717,26 @@ a {
     border-bottom-left-radius: 0.6rem;
     border-bottom-left-radius: 0.6rem;
     border-bottom-left-radius: 0.6rem;
+    animation: slideIn 1s ease-out;
+  }
+
+  @keyframes slideIn {
+    0% {
+      transform: translateX(20rem);
+    }
+    100% {
+      transform: translateX(0);
+    }
   }
   .mobile-a {
-    margin-top: 7rem;
+    margin-top: 10rem;
   }
+
   .mobile-navbtn {
-    margin-left: 16rem;
+    margin-left: 10rem;
     font-size: 26px;
     background-color: transparent;
     border: none;
-    display: block;
   }
   .mobile-navreveal {
     display: block;
@@ -669,17 +747,17 @@ a {
     display: none;
   }
   .flexx1 {
-    gap: 26rem;
-    padding-left: 1.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 
   /*technologies page mobile responsiveness*/
   .section-tech {
-    margin-left: 1rem;
-    width: 90%;
+    width: 100%;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
     margin: auto;
     text-align: center;
-    gap: 5rem;
   }
   .div3-tech {
     display: none;
@@ -691,19 +769,33 @@ a {
     width: 100%;
   }
   .div2-tech {
-    width: 84%;
+    width: 85%;
     margin-top: 8rem;
   }
   .p-tech {
-    font-size: 17px;
+    font-size: 19px;
   }
   .btn1 {
     font-size: 1.3rem;
   }
   .div1-tech {
-    margin-top: 8rem;
+    margin-top: 12rem;
   }
   .crew-p {
-    font-size: 17px;
+    font-size: 19px;
+  }
+  /* nav */
+  .flex-end {
+    width: 100%;
+    display: flex;
+    padding-bottom: 1rem;
+    justify-content: flex-end;
+  }
+  #omo {
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
   }
 }

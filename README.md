@@ -24,7 +24,8 @@ You can access the hosted website on this address https://space-tourixm.netlify.
 
 3.JAVASCRIPT
 
-#Screenshots
+# Screenshots
+
 
 
 

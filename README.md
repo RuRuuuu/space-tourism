@@ -27,7 +27,7 @@ You can access the hosted website on this address https://space-tourixm.netlify.
 
 
 # Screenshots
-![Uploading developerr.jpg…]()
+![Uploading developerr.jpg…](https://github.com/RuRuuuu/space-tourism/assets/110995961/66157a89-9f16-4064-926c-44ac468decbb)
 ![Screenshot (26)](https://github.com/RuRuuuu/space-tourism/assets/110995961/66157a89-9f16-4064-926c-44ac468decbb)
 ![Screenshot (33)](https://github.com/RuRuuuu/space-tourism/assets/110995961/aafe0f3a-aca6-4cf2-b68f-0da777d7edcc)
 ![Screenshot (28)](https://github.com/RuRuuuu/space-tourism/assets/110995961/07dd903f-ae53-4bb6-81cd-898cbd367726)
